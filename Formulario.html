@@ -1,0 +1,95 @@
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milky Pastry | Pedido</title>
+    </head>
+    <style>
+      .centrar{
+        position: absolute;
+        top: 200px;
+        left: 300px;
+      }
+      .fontexto{
+        color: antiquewhite;
+        font-style: oblique;
+      }
+      .fontHead{
+        color: bisque;
+        font-style: bold;
+      }
+    </style>
+    <body style="background-image: url(./Imagen/Backgorund.jpg);">
+      
+     <section class="centrar"> <form>
+        <label for="Nombre" class="fontHead">Indica tu nombre</label>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+
+        <p class="fontHead">Dirección de entrega</p>
+        <label for="calleEntrega" class="fontexto">Calle</label>
+        <input type="text" id="calleEntrega" name="calleEntrega" placeholder="Calle"><br>
+        <label for="NoExterior" class="fontexto">No. Exterior</label>
+        <input type="text" id="NoExterior" name="NoExterior" placeholder="No. Exterior"><br>
+        <label for="NoInterior" class="fontexto">No. Interior</label>
+        <input type="text" id="NoInterior" name="NoInterior" placeholder="No. Interior"><br>
+        <label for="Municipio" class="fontexto">Municipio/Alcaldía</label>
+        <input type="text" id="Municipio" name="Municipio" placeholder="Municipio/Alcaldía"><br>
+        <label for="codigo" class="fontexto">Código Postal</label>
+        <input type="text" id="codigo" name="codigo" placeholder="Código Postal"><br>
+
+
+        <p class="fontHead">Escoge hasta 3 sabores</p>
+        
+        <input type="checkbox" id="Vainilla" name="Vainilla" value="Vainilla">
+        <label for="Vainilla" class="fontexto">Vainilla</label>
+        <input type="checkbox" id="Chocolate" name="Chocolate" value="Chocolate">
+        <label for="Chocolate" class="fontexto">Chocolate</label>
+        <input type="checkbox" id="Fresa" name="Fresa" value="Fresa">
+        <label for="Fresa" class="fontexto">Fresa</label>
+        <input type="checkbox" id="Coco" name="Coco" value="Coco">
+        <label for="Coco" class="fontexto">Coco</label><br>
+
+        <input type="checkbox" id="MorAzul" name="MorAzul" value="MorAzul">
+        <label for="MorAzul" class="fontexto">Mora Azul</label>
+        <input type="checkbox" id="Mazapan" name="Mazapan" value="Mazapan">
+        <label for="Mazapan" class="fontexto">Mazapan</label>
+        <input type="checkbox" id="Uva" name="Uva" value="Uva">
+        <label for="Uva" class="fontexto">Uva</label>
+        <input type="checkbox" id="Limón" name="Limón" value="Limón">
+        <label for="Limón" class="fontexto">Limón</label><br>       
+
+        <p class="fontHead">¿Tienes algún diseño?</p>
+        <input type="radio" id="si" name="sino" value="si">
+        <label for="si" class="fontexto">Sí</label>
+        <button name="diseno">Añadir diseño</button><br>
+
+        <input type="radio" id="no" name="sino" value="no">
+        <label for="no"class="fontexto">No</label><br>
+
+        <p class="fontHead">Selecciona el diseño</p>
+        <input type="radio" id="diseno" name="diseno" value="uno">
+            <label for="uno"><img width="100px" height="100px" src="./cake/class.JPG"></label>
+          
+            <input type="radio" id="diseno" name="diseno" value="dos">
+            <label for="dos"><img width="100px" height="100px" src="./cake/class2.JPG"></label>
+            
+            <input type="radio" id="diseno" name="diseno" value="tres">
+            <label for="tres"><img width="100px" height="100px" src="./cake/uni2.JPG"></label><br>
+            <input type="radio" id="diseno" name="diseno" value="cuatro">
+            <label for="cuatro"><img width="100px" height="100px" src="./cake/Unicorn.JPG"></label>
+            <input type="radio" id="diseno" name="diseno" value="cinco">
+            <label for="cinco"><img width="100px" height="100px" src="./cake/thing.JPG"></label>
+            <input type="radio" id="diseno" name="diseno" value="seis">
+            <label for="seis"><img width="100px" height="100px" src="./cake/pool.JPG"></label>
+            <input type="radio" id="diseno" name="diseno" value="siete">
+            <label for="siete"><img width="100px" height="100px" src="./cake/rainbow.JPG"></label><br>
+
+            <p class="fontHead">Pago</p>
+            <button name="pago">Añadir comprobante de pago</button><br>
+        
+    <input type="reset">
+    <input type="submit">
+    </form></section>
+    </body>
+</html>
